@@ -23,7 +23,7 @@ def nao_entre_em_panico():
             primos = primos + str(numero) + ","
             qtdPrimos += 1
             if(qtdPrimos % 10 ==0):
-              primos = primos + "<br>"
+              primos = primos + "<br>" + qtdPrimos
         numero+=1
 ##  print (primos)
 
