@@ -23,9 +23,9 @@ def nao_entre_em_panico():
             primos = primos + str(numero) + ","
             qtdPrimos += 1
             if(qtdPrimos % 10 ==0):
-              primos = primos + "\n"
+              primos = primos + "<br>"
         numero+=1
-  print (primos)
+##  print (primos)
 
   return primos
 
