@@ -8,7 +8,7 @@ app = Flask(__name__)
 def nao_entre_em_panico():
 
 
-    primos = "Tudo vai dar certo!"
+    primos = "Tudo vai dar certo primos!"
 
 
     return primos
